@@ -77,7 +77,7 @@ async function fetchAndRenderGallery() {
 }
 
 function scrollAfterClickLoadMore() {
-  const item = gallery.querySelector('.gallery-itema');
+  const item = gallery.querySelector('.gallery-item');
   const gap = parseInt(getComputedStyle(gallery).rowGap);
   const heightEl = item?.getBoundingClientRect().height ?? 0;
 
